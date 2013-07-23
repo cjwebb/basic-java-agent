@@ -25,7 +25,6 @@
     </dependencies>
 
     <build>
-        <finalName>basic-java-agent</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

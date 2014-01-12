@@ -6,6 +6,7 @@ public class Agent {
 
     public static void premain(String agentArgs, Instrumentation inst) {
         // registers the transformer
-        inst.addTransformer(new SleepingClassFileTransformer());
+        inst.addTransformer(new LoggingClassFileTransformer());
+        //inst.addTransformer(new SleepingClassFileTransformer());
     }
 }
